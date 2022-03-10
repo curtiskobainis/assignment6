@@ -17,6 +17,7 @@ ul {
 }
 h1, p {
   text-align: center;
+
   color: rgb(255, 0, 0);
 }
 
@@ -122,5 +123,131 @@ li:hover {
 li.active a {
   font-weight: bold;
   color: #333;
+}
+
+.server1{
+  display: block;
+  background: rgb(12, 139, 189);
+}
+
+.server2{
+  display: block;
+  background: rgb(12, 139, 189);
+}
+
+.server3{
+  display: block;
+  background: rgb(12, 139, 189);
+}
+
+
+.server4, .server5, .server6 {
+  width: 33%;
+  float: left;
+  display: block;
+  background: gray;
+}
+
+footer{
+  float: left;
+}
+
+.mainnav{
+  display: block;
+  background: rgb(255, 0, 0);
+}
+
+small {
+  float: right
+}
+
+
+/*Iphone XS*/
+@media screen and 
+(max-width: 896px) {
+  h1, p {
+    text-align: center;
+    color: rgb(38, 0, 255);
+  }
+
+  #server, li {
+    font-size: 100%;
+  
+  }
+
+  #server, h2 {
+    font-size: 150%;
+  
+  }
+
+  #server, h3 {
+    font-size: 120%;
+  
+  }
+
+  #server, img {
+  width: 100%;
+  }
+
+}
+
+/*Laptop*/
+@media screen and 
+(min-width: 1200px) and
+(max-width: 1600px) {
+  h1, p {
+    text-align: center;
+    color: rgb(234, 0, 255);
+  }
+
+  #server, li {
+    font-size: 150%;
+  
+  }
+
+  #server, h2 {
+    font-size: 160%;
+  
+  }
+
+  #server, h3 {
+    font-size: 130%;
+  
+  }
+
+  #server, img {
+    width: 75%;
+    }
+
+}
+
+/*IPAD 12.9 Pro*/
+@media screen and 
+(min-width: 1024px) and
+(max-width: 1366px) {
+  h1, p {
+    text-align: center;
+    color: rgb(255, 123, 0);
+  }
+
+  #server, li {
+    font-size: 140%;
+  
+  }
+
+  #server, h2 {
+    font-size: 150%;
+  
+  }
+
+  #server, h3 {
+    font-size: 120%;
+  
+  }
+
+  #server, img {
+  width: 100%;
+  }
+
 }
 
