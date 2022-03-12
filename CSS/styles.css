@@ -312,3 +312,57 @@ text-align: center;
   font-size: 25px;
 
 }
+
+/*Iphone XS*/
+@media screen and 
+(max-width: 896px) {
+  h1, p {
+    text-align: center;
+    color: rgb(38, 0, 255);
+  }
+
+  .column1 {
+    background-image: url("../images/servers3s.png");
+  }
+
+  .column2 {
+    background-image: url("../images/servers2s.jpg");
+  }
+  .column3 {
+    background-image: url("../images/servers1s.jpg");
+  }
+
+  .column4 {
+    background-image: url("../images/servers5s.jpg");
+  }
+  .column5 {
+    background-image: url("../images/servers6s.jpg");
+  }
+  .column6 {
+    background-image: url("../images/servers7s.jpg");
+  }
+
+  #feature {
+    background-image: url("../images/server4s.png");  
+  }
+}
+
+/*Laptop*/
+@media screen and 
+(min-width: 1200px) and
+(max-width: 1600px) {
+  h1, p {
+    text-align: center;
+    color: rgb(234, 0, 255);
+  }
+}
+
+/*IPAD 12.9 Pro*/
+@media screen and 
+(min-width: 1024px) and
+(max-width: 1366px) {
+  h1, p {
+    text-align: center;
+    color: rgb(255, 123, 0);
+  }
+}
